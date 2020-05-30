@@ -1,0 +1,15 @@
+*~
+*.swp
+tmp/
+npm-debug.log
+yarn-error.log
+.DS_Store
+.vscode/
+
+.build/*
+.next
+.coverage
+.env
+
+node_modules/
+
