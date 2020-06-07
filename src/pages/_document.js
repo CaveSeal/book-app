@@ -32,12 +32,21 @@ export default class CustomDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
           <meta name="google" content="notranslate" />
           <meta name="theme-color" content="#1976d2" />
 
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400:latin" />
-          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Muli:300,400:latin"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          />
 
           <style>
             {`

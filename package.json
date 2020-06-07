@@ -4,6 +4,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
+    "server": "nodemon src/server/app.js",
     "start": "next start",
     "lint": "eslint --ext .js,.jsx ./src"
   },
@@ -18,9 +19,20 @@
       "prettier --fix"
     ]
   },
+  "nodemonConfig": {
+    "watch": "src/server/",
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "js,jsx,json",
+    "timeout": 2000,
+    "verbose": false
+  },
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@material-ui/styles": "^4.10.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
     "next": "^9.4.4",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -38,6 +50,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.7",
+    "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
   },
   "license": "MIT"

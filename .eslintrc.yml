@@ -22,8 +22,7 @@ rules:
     - error
     - arrowParens: "avoid"
       endOfLine: "auto"
-      # 120 is max, but 80 is preferred
-      printWidth: 120
+      printWidth: 80
       semi: false
       singleQuote: true
       trailingComma: "none"
